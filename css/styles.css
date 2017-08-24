@@ -33,9 +33,12 @@ h1 {
 
 .headernav {
     list-style-type: none;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
     margin-bottom: 0px; 
     padding: 20px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #333c60;
 }
 
