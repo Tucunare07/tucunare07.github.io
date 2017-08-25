@@ -76,3 +76,8 @@ li a:hover {
     background-color: #333c60;
     color: #efbdba;
 }
+
+img.resize {
+    max-width:150px; 
+    height: auto;
+}
