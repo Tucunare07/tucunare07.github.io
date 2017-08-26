@@ -8,6 +8,7 @@ body, {
 div {
     width: 100%;
     margin: 0px; 
+    overflow: auto;
 }
 
 h1 {
@@ -60,7 +61,7 @@ li a:hover {
 }
 
 .portfolio {
-    padding: 60px;
+    padding: 20px 60px 20px 60px;
     font-size: 16px;
     background-color: #efbdba;
     margin: 0px; 
@@ -68,16 +69,16 @@ li a:hover {
 
 .employment {
     background-color: ffffff;
-    padding: 60px;
+    padding: 20px 60px 20px 60px;
     font-size: 16px;
 }
 
 .footer {
     background-color: #333c60;
     color: #efbdba;
+    height: 60px;
 }
 
-img.resize {
-    max-width:150px; 
-    height: auto;
+.footer ul{
+    list-style: none;
 }
